@@ -5,3 +5,6 @@ class Cor(models.Model):
 
     def __str__(self):
         return self.descricao
+    class Meta:
+     verbose_name = "Cor"
+     verbose_name_plural = "Cores"

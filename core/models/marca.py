@@ -7,3 +7,7 @@ class Marca(models.Model):
     def __str__(self):
         return f"{self.nome.upper()} ({self.id}) ({self.nacionalidade})" 
  
+    class Meta:
+     """Meta options for the model."""
+
+     verbose_name_plural = "Marcas"
